@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {	
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	min-height: 100vh;
+}
+
+.bounds {
+	max-width: 1200px;
+}
+.flex {
+  display: flex;
+}
+
+
+/* HERO */
+#hero {
+  background-image: url(https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+  width: 100%;  
+  height: 800px;
+  background-position: center;
+}
+#hero .title {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, .2);
+  padding: 11em 16em;
+  background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
+}
+#hero .title h1 {
+  font-size: 4em;
+  letter-spacing: 6px;
+}
+#hero .title .btn-action {
+  color: white;
+  background-color: black;
+  width: 151px;
+  padding: 1em 2.4em;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+
+/* ACCOMDATIONS */
